@@ -23,7 +23,6 @@ export default function Card() {
   }
 
   function lengthShouldBe16(temp) {
-    /// length for each box must be 4
     // if input is empty or whitespace or final
     // length is other than 16 this function will give false otherwise true
     return !temp || !temp.trim() || temp.length === 16;
